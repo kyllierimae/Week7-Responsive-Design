@@ -6,6 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: 1fff;
+}
+
 
 .container {
     font-family: 'Lato', sans-serif;
@@ -88,6 +92,9 @@
     /*muuda dokumendi taustavärvi*/
     /*muuda dokumendi tekstivärvi*/
     /*ära unusta ka raamjoonesid*/
+    body {
+        background-color: blue;
+    }
 
     .container {
         width: 100%;
@@ -140,6 +147,9 @@
 
 
 @media (min-width: 768px) {
+    body {
+        background-color: green;
+    }
 
     /*muuda image-container taustapilti*/
     /*muuda dokumendi taustavärvi*/
@@ -147,7 +157,7 @@
     /*ära unusta ka raamjoonesid*/
     .container {
         width: 100%;
-        background-color: rgb(50, 85, 5);
+        background-color: green;
     }
     .image-container {
         clip-path: circle(50% at 50% 50%);
@@ -188,6 +198,9 @@
 
 
 @media (min-width: 1024px){
+    body {
+        background-color: red;
+    }
         
     /*muuda image-container taustapilti*/
     /*muuda dokumendi taustavärvi*/
@@ -195,7 +208,7 @@
     /*ära unusta ka raamjoonesid*/
     .container {
         width: 100%;
-        background-color: rgb(85, 5, 32);
+        background-color: red;
     }
     .image-container {
         clip-path: circle(50% at 50% 50%);
@@ -237,6 +250,9 @@
 
 
 @media (min-width: 1200px){
+    body {
+        background-color: blueviolet;
+    }
 
     /*muuda image-container taustapilti*/
     /*muuda dokumendi taustavärvi*/
@@ -244,7 +260,7 @@
     /*ära unusta ka raamjoonesid*/
     .container {
         width: 100%;
-        background-color: rgb(40, 5, 85);
+        background-color: blueviolet;
         
     }
     .image-container {
@@ -254,7 +270,7 @@
         background-position: center;
         height: 450px;
         width: 450px;
-        margin: 0rem auto; 
+        margin: 2rem auto; 
        
     }
     .navigation ul li {
